@@ -1,0 +1,15 @@
+The basic idea that complexity can be obtained by very simple rules is not new.
+It doesn't tell you how to replace current math, physics, etc.
+And looking at lots (and I mean *lots*) of fractal-like, cellular automata, game of life like, black and white pictures is no fun at all.
+This is not a "how to" book.
+)I think the basic info in this book, the basic theme, could be written in under 100 pages.
+For me, not many new ideas.
+You need to understand the text to understand the pictures.
+(A few pictures would be o.k., but hundreds is not good.
+Glad I didn't buy the book.
+with something new.
+It only suggests that it might be possible to do so by considering "it all" as computation and by finding/defining simple computable systems.Some interesting ideas.
+But if you understand the text, you don't really need the pictures.
+(Borrowed a copy.)
+The pictures tell you nothing.
+The idea that the Universe, in all its complexity, may be a result of very simple (computational) rules is not new.

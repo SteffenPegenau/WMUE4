@@ -1,0 +1,17 @@
+So if you used Netgear before, the configuration is eary.
+The USB/FTP never worked for me.
+For the price you are paying, you have a lot more choices.
+I tried flashing to the latest FW.
+It's ok for a 802G network.
+Menu is the same as the other Netgear product.
+Reboot on the 634U compare with other Netgear product does take longer.
+None of them works with the 634U.
+Level 1 only ask you to reboot, rebuild your config, etc.
+No go.
+Two of the USB I tried above is listed on supported USB drive at Netgear.
+I even tried the beta.
+I have tried USB from SimpleTech, Sony, Lexar, and Sandisk.
+I seriously suggest you go thru the Netgear forum first before buying this router.I kept my 634U not giving up hope that Netgear will eventually fixes the problem.Menu and configuration are very easy to configure.
+I just can't access the FTP from outside the WAN.
+I tried calling and emailing tech support.
+LAN works fine.

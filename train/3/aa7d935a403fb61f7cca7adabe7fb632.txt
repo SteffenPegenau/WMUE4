@@ -1,0 +1,16 @@
+Also, it won't e-file if I manually update state med deductions directly in form.
+In fed, it never prompts u to enter 1099G forms.
+Kept telling me to go to hire a tax advisor.
+This can cost u an audit.In state (NJ), it never prompts you to enter medical deductions.
+However, it is buggy.
+NJ state is 2%, so I would be able to deduct but taxcut never prompts for it.
+I bought TaxCut because of all the bad things said now about turbotax.
+The state numbers are not the same as fed.
+Called Tech Support, explained them problems, but they are clueless.
+It just silently uses the federal numbers.
+Even worse, on fed, it asks if you have more than 7.5% med expenses, otherwise, don't bother entering.
+If u have medical FSA, it cannot itemized on federal, but can be on state.
+So I didn't enter any med deductions.
+Just silently puts 0 from fed.
+:(
+However, this is wrong.

@@ -1,0 +1,15 @@
+I'll keep using my cheap $20 unit and save my money for a Fluke.
+Rubbing the leads together produces a scratchy tone.
+Bought this DMM at RS.
+Dead on arrival.
+Due to the poor quality and toy-ish look and feel, it didn't last 10 minutes on my bench before I was packaging it back up for return.
+Put it back together and started twisting the knob around.
+Switched back to ma then it worked for a minute then died again.
+It takes almost a second for a tone.
+That was it for this POS.
+Even my $20 DMM gives a solid tone when rubbing the leads together.
+I pulled the battery and it tested fine on my other meter.
+OK, decided to do a simple continuity test.
+Switched back to voltage, the meter comes back on.
+The voltage reading worked fine but when I tried switching over to ma the meter went dead.
+Presto, suddenly started to work.

@@ -1,0 +1,15 @@
+I can only guess that s/he got this book confused with the other Walrand books.
+3.
+This 2nd edition has tons of typos and poorly-stated questions and ambiguous diagrams 2.
+5.
+It does a LOT of handwaving.
+It DOES NOT EVEN say what fields are in a TCP header!
+There is much more i could say!TRUST ME: Do NOT buy this textbook and if a prof is using it for a course, DROP the course and/or BEG the professor to use ANY OTHER book (like Tanenbaum or Peterson&Davie).
+4.
+This is frustrating beyond description.
+Yet it asks a question on it!
+To add insult to injury, this awful book has an exhorbitant price (it is but 3/4" thick).
+I dont see how that reviewer from San Jose can give this 5 stars.
+We used this for a course and EVERY WEEK, the instructors and TAs had to interpret, re-word or explain text and problems from the book that were part of weekly homework.
+1.
+Avoid this book at all costs!

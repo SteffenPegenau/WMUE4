@@ -1,0 +1,16 @@
+It has a nice user interface - too bad it doesn't work!
+I suppose it really doesn't matter, but this is the slowest writing CD software I have ever seen.
+Those didn't work either.
+So far I have not received the email.
+He told me where to get a fixed .DLL off the web from Microsoft.
+The program crashed there.
+The technician said he would send me email with more suggestions.
+I called tech support and they gave me a couple of suggestions.
+Everything went fine until I got to the part where it burns a CD.
+A different tech discovered that there is a Microsoft .DLL file that is buggy.
+This time it did install successfully.
+Called tech support a second time.
+(Doesn't matter because it didn't finish anyway.)
+They ALL crashed.
+I tried is several more times using different CD write speeds from 2X to 12X.
+It crashed several times on installation.

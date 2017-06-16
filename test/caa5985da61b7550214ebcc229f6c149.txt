@@ -1,0 +1,16 @@
+If you have vista you can get it to work with some tweaking.
+then click ok and run the driver installation.
+simply download the right driver for your system x86 or x64 in XP format.
+then here is the secret, right click the driver exe and go to properties.
+Microsoft will say it is not compatible with this camera at all.
+officially creative does not have a vista driver for this one.
+then compatibility.
+it will work in vista.
+this is too old.
+and voila, I am using mine in vista right now :)
+the last driver for it was xp 64 bit.
+click run in compatibility for windows xp.
+be sure to unplug the camera first and then plug it in when asked.
+it is hard to find it now.
+ok be careful with vista.
+creative does support vista on other products.

@@ -1,0 +1,16 @@
+If you need a manged switch, this might be more important to you than I
+This unit runs very warm so make sure you place it away from other heat sources.
+I did not check if WPA Radius worked.
+It checked out ok, so I reinstalled the firmware.
+Some resets later, it worked, but not with WEP or WPA.
+I checked the firmware version to make sure I had installed the correct firmware.
+My AP is using WPA2.
+Maybe it was just a glitch.
+WPA AES is not supported.
+Before I purchased this product, I was aware of the problems with WPA and the latest firmware that corrected the issues.
+Two resets later, it worked with WEP and WPA TKIP.
+A small fan may not be a bad idea for any electronic device.
+As long as the ports function, I am happy.
+I have an Xbox and two computers connected without any problems.I have not tested the switch, as far as features and speed is concerned.
+Still, after installing the latest firmware, I had IP conflicts.
+I cannot recreate the problem I experienced.

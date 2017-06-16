@@ -1,0 +1,15 @@
+I found the keyboard very comfortable.
+selecting upwards and hitting the HOME key.
+Keep the SHIFT key pressed and press the down arrow key to select the lines of text.
+This happens with the reverse also i.e.
+I returned my keyboard.
+Keep your cursor at the beginning of a line.
+I found a problem with this keyboard.
+I dont know it was specific to my piece of if it is problem with this model.
+Please note that this is PS/2 keyboard and if your computer has only USB ports, then dont buy this.
+The cursor moved to the end of the line but the whole selection is lost.
+The problem comes when we try to select multiple lines to text using the SHIFT + Arrow keys and then the END or HOME keys.
+When you reach the last line you want to select, press the END key to complete selection of last line.
+Haven't decided which one to buy to replace this.
+Here is how you can reproduce this problem.
+This might not seem like a a big issue but it irritated me a lot.

@@ -1,0 +1,15 @@
+Numerous firware upgrades since product release, but the product still won't actually perform this basic function with a modem.3.
+Won't operate bi-directional with Win ME so you can't use the features of a "smart" or multi-function printer.6.
+Tech support is horrid.
+Seemingly no organized way to track issues on SMC's end.
+Basic routing worked ok.2.
+Dial-on-demand doesn't.
+To avoid unwanted connect time, the unit must be configured so that all users must have administrative access in order to manually initiate dialing.
+Print server is extremely slow.
+Responses to others did not show professionalism or much technical knowledge.
+There is a poor workaround, but it results in lots of unwanted connect time and it's buggy.
+Very insecure.4.
+1.
+Useful only for simple text printing.
+Administrative interface poorly designed and buggy.5.
+Non-response to some e-mails.

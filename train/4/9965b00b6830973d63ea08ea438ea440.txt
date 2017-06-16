@@ -1,0 +1,18 @@
+So, make sure you use the latest version.
+I thought it was because of my Lenovo FireWire chipset...
+I'm a computer programmer, so, I know what I'm talking about.
+But... Accidentally, unpredictably, it starts BUZZZZIG and HUMMMING at the HIGHEST volume level!
+It's not good for your reputation, really.
+Thanks MOTU!
+It can accidentally produce a signal that can damage your equipment and your ears!
+And imagine you use it for a real performance!!!
+In the new version it's solved.
+Same thing.
+So that, it's not safe for your ears, not to mention your amps and speakers.
+This device is not safe!!!
+Please, MOTU guys, please, fix your firmware ASAP!!!
+My name is Maxim Shemanarev, if MOTU guys do care about their reputation, they HAVE to fix it ASAP!!
+!Update: The problem was in the Drivers for Windows.
+I tried it with a true TI-based FiWi.
+I use this device MOTU 8Pre for my home experiments, it works most of the time.
+That's impossible to use it as is now!

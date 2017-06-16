@@ -1,0 +1,15 @@
+On the other hand, importing from DB5 required that I use V5 then V7.
+It is slow, remains sloppy to use, and the customizing screens tend to slip away before you are done making the feeble changes that are allowed.
+That is as far as I have had time to push to now.
+Sigh!
+I recommend you pass on this ?upgrade?
+Another reviewer speaks of taking a minute & a half to load on an old machine.
+My 2+Gig with 500Mb RAM is also sloooow to load.
+It is pretty good software for 1989.
+Trouble is, this isn't 1989.
+Hope not too many more traps await me.
+Especially hope the crashings do not come.Absent a major change of heart by management, I cannot imagine ever buying another edition of ACT!
+I was upgrading (?)
+Some of the features that didn't work at all in V5 now work, but not properly (such as field names and sub-groups).
+V7 simply refused to import the data.
+from v5, which is no great shakes, either, but I stuck with it because the Goldmine reviews were underwhelming.

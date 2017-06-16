@@ -1,0 +1,15 @@
+Although it sure does help when they hit assembly language instructions in chapter 3!That's why it's so confusing when you hit the exercises in the back of each chapter.
+."
+.
+The text seems okay for a intro.
+into the subject.
+and the answers really didn't come from anywhere in the book.
+I am sort of in between all the other reviwers on this one.
+Where did these come from?
+Very little of it can be answered by reading the book, the teacher of my class was only able to answer the questions due to experience outside of the field.
+And sorry to anyone required to use this text!
+Sorry.
+Most of the answers start with "it depends on .
+Most of the questions are trick questions and this isn't a way to teach, but it is a way to confuse the reader.
+There is enough information to teach a class and I assume it _is_ designed for someone with little to no previous knowledge in computer architecture.
+I guess I'm reviewing the book in the same way the book reads.

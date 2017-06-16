@@ -1,0 +1,15 @@
+Logging into the web brower setup was pointless, when you try to save settings the web browser either rejects the devices redirect page or gives you some authentication error.
+I have mac address filtering and no key set on my network and even when I turn the filter off and the firewalls; it doesn't want to be found on the network.
+I'm sure any of them would be better then this joke.
+There are alternative to this device.
+Nothing.
+Seriously -- Not a good linksys product.
+I had it working wirelessly, wired to a wrt54g, and wired directly to the computer.
+--router is on 192.168.1.210.
+Avoid this product and save yourself headaches and disappointment.
+Great product when it works, which is almost never.
+Everytime it was working it was great.
+Made sure I was on the same network as the bridge(ie 192.168.1.?)
+No firmware available.
+Out of the box, the Setup CD did not detect my bridge;rendering it useless.
+No dropped sound, very few instances of lag issues.

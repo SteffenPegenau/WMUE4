@@ -1,0 +1,16 @@
+So what.
+Where is Andrew LaMott ( <== spelling? )
+This ain't the one.
+Where is the meat of C++ programming in this book.
+I'm ashamed to say I bought this book.
+So what?
+I read it in about an hour.
+So what.
+....I was expecting to see some C++ tricks and was disappointed.
+Where is Scott Meyers when you need him?
+He knows his way around the Windows API, so what.
+He knows how to freak out his co-workers.
+He has a few tricks to teach us about how to make windows components dance around, dissappear, change etc.
+TCP/IP is great for sending/receiving stuff.
+Where is the C++ stuff in this book.
+Look around for another book to show you some C++ stuff.

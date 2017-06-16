@@ -1,0 +1,15 @@
+Code formatting is impossible to read.
+I'd beembarrassed to circulate anything I'd written formatted likethis.3.
+SQL 2K coverage is lacking.
+There's a way to keep thereader engaged in a technical book.
+It looks like the book was written for SQL 7,then retitled when it ran late.What does all this mean?
+Ken Henderson's Guru's Guide toTransact-SQL laments this trend and rightfully so.
+I'msending my copy back, that's what.
+Five problems:1.
+We don't need ahalf page shot of Query Analyzer to see the results of a small query....5.
+There are several deviations(timestamp and @@identity being two examples) into things that areeither obsolete or moot points in SQL 2K.
+These guys haven't found it.4.Far too many screen pictures.
+Code is stupid and unhelpful.
+The authors appear not toknow SQL 2K very well.
+Either theexamples are too kludgy to be useful or too simplistic to teach youanything2.
+Writing is terribly dull.

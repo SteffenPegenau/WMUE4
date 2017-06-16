@@ -1,0 +1,16 @@
+The "Shift" key seems a little sticky.
+It's quiet, comfortable and reliable.
+Overall, I'm fairly satisfied with this.
+The traditional layout is a lot easier to use, in my mind.4.
+Not only that, but it only registers a click about half the time.2.
+The same thing happens in Windows without the drivers installed.
+I use this all the time in my work, and this is a big problem.
+The scroll wheel is a little flaky.
+", even though I released the shift key just before hitting the "/" key.Other than that, this is a pretty good setup.
+It works, but it often ends up selecting a bunch of text in the process.
+As a disclaimer, I'm mostly using Linux (no drivers for this mouse), but I've never had a mouse do that.
+YMMV.3.
+There are a couple of things to be aware of, though:1.
+The middle mouse button is VERY stiff and hard-to-use.
+I don't like the arrangement of the "Home/End/Delete/Page Up/Page Down" cluster.
+For instance, when I type "~/", I often end up with "~?
