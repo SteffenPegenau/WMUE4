@@ -1,0 +1,15 @@
+The down-side: Programming can be copmplicated.
+Watch TV button turns the set on, to the correct input, turns on the cable box, turns on the stereo and sets to the proper input.
+Very versitile.
+But, great telephone support through your computer account.
+Has the capability to integrate multiple functions into a single button command.
+I have only done lights and fan so far.
+Still, not complete though.
+Features individual control as well as "theme configurations such as "all off" or "family room all on."
+I suspect the device database gets updated as new medels come out.
+Lighting control is so cool.
+Z-wave devices (to control with this remote) are not cheap...but they work great.
+Database lacks some, less-common, devices.
+The same for DVD, Roku, and other sets of devices.
+Overall, a very good remote...better than good when you consider the price and capabilities versus other, more expensive models.
+You can control lights, garage door, fans, door locks, thermostat, etc.

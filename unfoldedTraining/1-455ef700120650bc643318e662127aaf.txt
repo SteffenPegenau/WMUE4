@@ -1,0 +1,15 @@
+And where you really want an advanced problem solved you just got bad luck.
+Only answers to trivial problems are given; and they are no solutions but nothing more than the results.
+Example: Fourier Transformation.
+Hilbert Spaces and thus orthognalility aren't even mentioned.
+So it is no more than an under-undergraduate book to generally get a picture of what Signals and Systems are about.
+Why can L2([0,1]) be identified with the nonperiodic Lebesgue Space l2(Z)?
+Under what conditions can we convolute (remember the equation of young?)
+If you really want to understand the mathematics behind it and what is going an, forget it.
+Another problem are the 'solved problems'.
+Mathematics are not at all (or not really in depth) dealt with.
+In what field are we working?
+Too many trivial figures.
+Nothing about this at all.
+A lot of stuff in there, but it is all just scratching at the surface.
+Example: Convolution.

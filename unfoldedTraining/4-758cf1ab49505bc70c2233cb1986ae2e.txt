@@ -1,0 +1,16 @@
+* Work and results on real sample data.
+Big plus here.
+No too lengthy and fuzzy discussions.
+* The organization of book is clear and concise.
+It helps to better understand each method and its +/-This is a good book for those who use statistics for data mining.
+It helps to make drawings more attractive and to show more info.
+I particularly enjoy it!
+Method and technique explanations are clear though sometimes bit hard to follow.
+Though a reader is expected to have good enough level in maths to grasp the concepts quickly.
+Though it is clear enough and self-sufficient* There are many references and pointers to original works and related fields.
+May be too bright for some.
+* Liberal usage of colors.
+Here are my impressions about the book.
+It seems that there is more accent on probabilistic (frequentist) field.
+* My parts like SVM and LDA, PCA.... they seem to be explained in quite difficult way.
+May not be appropriate for the beginners in the field.

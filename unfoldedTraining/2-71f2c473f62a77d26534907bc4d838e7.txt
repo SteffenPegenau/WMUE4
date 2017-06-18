@@ -1,0 +1,15 @@
+Would I buy another SONY???
+It worked fine with very few coasters.
+I bought mine over a year ago.
+I still have the drive installed and I'm still using it, however I'm now looking for a replacement.
+Booting 2-3 times can't be good for the rest of my components, so it's time to make a change.
+When it detects OK, the drive still works fine.
+Now enter the problem... At 13 months it started causing POST failures during bootup.
+(Guess what... the warranty is 12 months!)
+For the first 13 months it was a very good drive.
+BIOS will only detect about half of the time.
+The other half of the time I get "Invalid IDE device" messages.
+After much trouble-shooting, swapping IDE controllers, slaves, masters, etc, and contacting SONY tech support, it became very obvious that this drive is my problem.
+Maybe... maybe not.
+Most often I settled for 4x burning.
+I was usually unsuccessful in burning at 8x unless copying a cd.

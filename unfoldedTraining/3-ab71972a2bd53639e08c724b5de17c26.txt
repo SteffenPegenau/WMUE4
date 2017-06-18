@@ -1,0 +1,16 @@
+In short, this book suffers from the appearance of being written hurriedly, no copy editing supplied by the publisher, Addison-Wesley.
+.
+Specifies a memory OR register operand .
+The author seems afraid to write a simple sentence, often choosing instead to join independent thoughts with a comma, creating run-on sentences.
+.
+.").
+Subject and predicate sometimes disagree in number ("There are four areas of memory called segments, each of which are 16 bits .
+Specifies a memory of register operand .
+. ")
+.
+The book also shows signs of being spell checked by computer, in that misspellings that happen to form other words are missed ("register/memory.
+.
+."
+William Buchanan's PC Interfacing, Communications and Windows Programming fills a niche in the technical world; however, I found it distracting to read because it so often mangles the English language.
+instead of ".
+.

@@ -1,0 +1,16 @@
+showed a 35 min.
+The "time remaining" display is not linear.
+"time remaining" droped only 10 min.
+Sometime in the third hour it ran out of battery.I believe the advertised values are a little optimistic but it should be close to the advertised value.
+After the first 60 min.
+This was way less than the advertised 170 min.
+I called CyberPower tech support and got a lot of "I don't know" and was told I would never see numbers as high as 170 min.
+But:At setup I noticed the display of time remaining was about 91 min.
+With a very modest load (46W for a DSL modem, Router and new 20" iMac) it showed about 70 min.
+Lots of power and big battery for the price.
+The second 60 min.
+drop.
+So I put it to the test.
+with no load connected.
+I wish tech support would have not tried to obscure the display issue.
+I'll bet the chips in the box were calibrated for a smaller unit with less battery so they show low numbers.

@@ -1,0 +1,15 @@
+That's right.
+It connects to the TiVo service with no errors.
+It begins to slowly transfer the file and restarts the TiVo within a few minutes.
+The TiVo restarts over and over.
+I have an older series 2 TiVo that has been working great with a Linksys WUSB12 for a couple years.
+The signal quality is excellent.
+I just installed the D-Link DWL-G120 adapter and it installed just fine.
+I was hoping for greater speed using the D-link G adapter.
+When I start the transfer it causes the TiVo to restart.
+After many tries, I put the Linksys WUSB12 back in and all is normal.
+Then I tried to transfer a recorded program to my PC.
+The transfer rate is a slow 2 Mbps.
+However, the real problem is disturbing.
+(It's only 15 ft distance) This is half the speed of the WUSB12 B adapter.
+There were no problems.

@@ -1,0 +1,15 @@
+This chapter is basically a HTML manual.
+I did like chapter 15 on navigation aids.
+(BTW: My 12-yr old daughter put this down even faster than I did!
+This was not it.
+At 90 pages in length, Chapter 6 is apparently the heart of the book.
+This was my first "Dummies" book, so perhaps I did not know what to expect.
+The end material on evaluating the usability of your website was even more vague (and a lot less entertaining) than a Jakob Nielsen lecture.
+Very few examples are given.
+It describes all HTML commands using a variant of BNF.
+There is a CD that comes with the book that supposedly contains worked examples.
+)The first 4-5 chapters were boring essays on the history of the web and html.
+The few that I looked up were not detailed enough for me to infer the patterns.Chapters 7-22 were short overly general sections discussing various issues.
+She wanted to know how to create webpages.
+This did not do it for her.
+I was expecting a "how-to" book with lots of worked examples.
