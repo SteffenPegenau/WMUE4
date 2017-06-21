@@ -2,6 +2,7 @@ package ke;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -33,10 +34,10 @@ public class OLSSchaetzer {
 	SimpleMatrix Var;
 	SimpleMatrix t;
 
-	public OLSSchaetzer(HashMap<String, RatingFile> files, ArrayList<Map.Entry<String, Integer>> allWords, ArrayList<Integer> indices) {
-		this.files = files;
-		this.allWords = allWords;
+	public OLSSchaetzer(HashMap<String, RatingFile> f, ArrayList<Map.Entry<String, Integer>> allWords, ArrayList<Integer> indices) {
 		this.indices = indices;
+		this.allWords = allWords;
+		this.files = removeFilesWithoutWords(f);
 		//List<Map.Entry<String, Integer>> reducedList = allWords.subList(startIndex, endIndex);
 		//files = removeUnrepresentedFiled(files, allWords);
 
@@ -74,6 +75,28 @@ public class OLSSchaetzer {
 		calcVarianz();
 		calcTValue();
 		//System.out.println(t);
+	}
+	
+	
+	public HashMap<String, RatingFile> removeFilesWithoutWords(HashMap<String, RatingFile> f) {
+		HashMap<String, RatingFile> files = new HashMap<String, RatingFile>();
+		HashSet<String> words = new HashSet<String>();
+		for(int i = 0; i < indices.size(); i++) {
+			words.add(allWords.get(indices.get(i)).getKey());
+		}
+		
+		for(String filename : files.keySet()) {
+			HashMap<String, Integer> fileWords = files.get(filename).words;
+			int occurences = 0;
+			for(String word : fileWords.keySet()) {
+				occurences += (words.contains(word)) ? 1 : 0;
+				if(occurences > 0) {
+					files.put(filename, files.get(filename));
+					break;
+				}
+			}
+		}
+		return files;
 	}
 	
 	public ArrayList<Integer> getRelevantIndices(double tMin) {

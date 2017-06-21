@@ -26,7 +26,7 @@ import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
 
 public class Classifier {
 	String STOPWORDS = "stopwords/english";
-	int CHUNKSIZE = 2000;
+	int CHUNKSIZE = 500;
 	double T_MIN = 2.0;
 	
 	private HashMap<String, RatingFile> trainingFiles;
