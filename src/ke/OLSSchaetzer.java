@@ -69,6 +69,8 @@ public class OLSSchaetzer {
 			i++;
 		}
 		
+		System.out.println("Matrix: " + X);
+		
 		calcBeta();
 		calcSSR();
 		calcSigmaSquare();
@@ -85,13 +87,16 @@ public class OLSSchaetzer {
 			words.add(allWords.get(indices.get(i)).getKey());
 		}
 		
-		for(String filename : files.keySet()) {
-			HashMap<String, Integer> fileWords = files.get(filename).words;
+//		System.out.println(files.keySet());
+//		System.out.println(f.keySet());
+		
+		for(String filename : f.keySet()) {
+			HashMap<String, Integer> fileWords = f.get(filename).words;
 			int occurences = 0;
 			for(String word : fileWords.keySet()) {
 				occurences += (words.contains(word)) ? 1 : 0;
 				if(occurences > 0) {
-					files.put(filename, files.get(filename));
+					files.put(filename, f.get(filename));
 					break;
 				}
 			}
