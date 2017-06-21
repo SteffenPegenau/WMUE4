@@ -41,10 +41,13 @@ public class RatingFile implements Serializable {
 
 		Pattern p = Pattern.compile("[\\w']+");
 		Matcher m = p.matcher(rawText.replace('\'', ' '));
-
+		
 		while (m.find()) {
+			
+			
 			String word = rawText.substring(m.start(), m.end()).toLowerCase();
-			if(!stopwords.contains(word) && !word.matches(".*\\d+.*")) {
+			word = stemm(word);
+			if(!stopwords.contains(word) && !isNumber(word) && word.length() > 1) {
 				if (words.containsKey(word)) {
 					Integer currentVal = words.get(word);
 					words.put(word, currentVal + 1);
@@ -54,6 +57,20 @@ public class RatingFile implements Serializable {
 			}
 		}
 		return words;
+	}
+	
+	private static boolean isNumber(String word) {
+		return word.matches("[0-9]+");
+	}
+	
+	private static String stemm(String word) {
+		Stemmer stemmer = new Stemmer();
+		stemmer.add(word.toCharArray(), word.length());
+		stemmer.stem();
+		String result = stemmer.toString();
+		//System.out.println(result);
+		//System.out.println("Stemming - Vorher: " + word +  "\tNachher:" + result);
+		return result;
 	}
 
 	private static boolean isTestFile(String filename) {

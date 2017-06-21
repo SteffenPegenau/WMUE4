@@ -18,10 +18,11 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Map.Entry;
 
-
 public class SerializableList implements Serializable {
 	private static final long serialVersionUID = 1L;
 	public ArrayList<Map.Entry<String, Integer>> al;
+
+	public HashSet<Integer> relevantWords = null;
 
 	public SerializableList(ArrayList<Map.Entry<String, Integer>> al) {
 		this.al = al;
@@ -61,7 +62,7 @@ public class SerializableList implements Serializable {
 
 		return entries;
 	}
-	
+
 	public static HashMap<String, Integer> asHashMap(ArrayList<Map.Entry<String, Integer>> al) {
 		HashMap<String, Integer> words = new HashMap<String, Integer>();
 
@@ -70,7 +71,7 @@ public class SerializableList implements Serializable {
 			Map.Entry<String, Integer> e = al.get(i);
 			words.put(e.getKey(), e.getValue());
 		}
-		
+
 		return words;
 	}
 
@@ -88,95 +89,145 @@ public class SerializableList implements Serializable {
 			e.printStackTrace();
 		}
 	}
-	
+
 	public void removeUnWords() {
 		System.out.println("Size before removing stupid words: " + al.size());
-		
-		HashSet<String> goodWords = new HashSet<String>();
-		try (BufferedReader br = new BufferedReader(new FileReader("wordlist.txt"))) {
-		    String line;
-		    while ((line = br.readLine()) != null) {
-		       line = line.replace("'", "");
-		       goodWords.add(line.toLowerCase());
-		    }
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
+
+		HashSet<String> goodWords = Classifier.getGoodWords();
+
 		ArrayList<Integer> indicesToRemove = new ArrayList<Integer>();
-		for(Entry<String, Integer> e : al) {
+		for (Entry<String, Integer> e : al) {
 			String word = e.getKey();
-			//System.out.println(word);
-			if(!goodWords.contains(word)) {
+			// System.out.println(word);
+			if (!goodWords.contains(word)) {
 				indicesToRemove.add(al.indexOf(e));
 			}
 		}
-		
+
 		Collections.reverse(indicesToRemove);
-		for(int i : indicesToRemove) {
+		for (int i : indicesToRemove) {
 			al.remove(i);
 		}
-		
+
 		System.out.println("Size after removing stupid words: " + al.size());
-		
+
 	}
 	
+	private static ArrayList<ArrayList<String>> splitArray(String[] array, int chunkSize) {
+		ArrayList<ArrayList<String>> chunks = new ArrayList<ArrayList<String>>();
+		
+		int j = 0;
+		chunks.add(new ArrayList<String>());
+		for(int i = 0; i < array.length; i++) {
+			chunks.get(j).add(array[i]);
+			
+			if(chunks.get(j).size() == chunkSize) {
+				j++;
+				chunks.add(new ArrayList<String>());
+			}
+		}
+		
+		return chunks;
+	}
+	
+	// Geklaut von https://gist.github.com/LarryBattle/5217402
+	public String joinArrayListString(ArrayList<String> r, String delimiter) {
+		  if(r == null || r.size() == 0 ){
+		  	return "";
+			}
+			StringBuffer sb = new StringBuffer();
+			int i, len = r.size() - 1;
+			for (i = 0; i < len; i++){
+				sb.append(r.get(i) + delimiter);
+			}
+			return sb.toString() + r.get(i);
+		}
+
+	public void writeRCommands(String csvFileName, String[] array) {
+		int chunkSize = 700; // Num of variables for regression
+		StringBuilder rCommands = new StringBuilder();
+		
+		rCommands.append("dat <- read.csv(file=\"" + csvFileName + "\", header=TRUE, sep=\";\")\n");
+		
+		ArrayList<ArrayList<String>> chunks = splitArray(array, chunkSize);
+		
+		for(int j = 0; j < chunks.size(); j++) {
+			rCommands.append("formel" + j + " <- formula(Class ~ ");
+			ArrayList<String> l = chunks.get(j);
+			rCommands.append(joinArrayListString(l, " + ") + ")\n");
+			rCommands.append("output" + j + " <- lm(formel" + j + ", data = dat)\n");
+			rCommands.append("sink('output" + j + ".txt')\n");
+			rCommands.append("summary(output"+j+")\n");
+			rCommands.append("sink()\n");
+		}
+		
+
+		
+		//rCommands.append("summary(output)");
+
+		// Write R commands
+		try {
+			PrintWriter writer = new PrintWriter("OLS.R", "UTF-8");
+			writer.print(rCommands.toString());
+			writer.close();
+		} catch (IOException e) {
+			System.out.println(e.getMessage());
+			// do something
+		}
+	}
+	
+	public ArrayList<Map.Entry<String, Integer>> removeAllOtherIndices(HashSet<Integer> indices) {
+		ArrayList<Map.Entry<String, Integer>> l = new ArrayList<Map.Entry<String, Integer>>();
+		for(int i = 0; i < al.size(); i++) {
+			if(indices.contains(i)) {
+				l.add(al.get(i));
+			}
+		}
+		System.out.println("All words: " + al.size() + "\tRelevant words: " + l.size());
+		return l;
+	}
+
 	public void saveMatrixCsv(HashMap<String, RatingFile> files) {
 		removeUnWords();
-		
+
 		StringBuilder sb = new StringBuilder();
 		StringBuilder rCommands = new StringBuilder();
 		String SEP = ";";
-		int MAX = 1000;
+		int MAX = 12000;
 		String file = "matrix.csv";
+
 		
-		rCommands.append("dat <- read.csv(file=\"" + file + "\", header=TRUE, sep=\";\")\n");
-		rCommands.append("formel <- formula(Class ~ ");
 		// Build header
 		sb.append("Class" + SEP);
 		int size = (al.size() > MAX) ? MAX : al.size();
 		String[] array = new String[size];
-		for(int i = 0; i < size; i++) {
+		for (int i = 0; i < size; i++) {
 			String col = al.get(i).getKey();
-			//System.out.println("Appended " + col + " : " + al.get(i).getValue() + "x");
+			col = "dat" + i;
+			// System.out.println("Appended " + col + " : " +
+			// al.get(i).getValue() + "x");
 			sb.append(col + SEP);
 			array[i] = col;
 		}
-		rCommands.append(String.join(" + ", array) + ")\n");
-
-		rCommands.append("output <- lm(formel, data = dat)\n");
-		rCommands.append("summary(output)");
+		writeRCommands(file, array);
 		sb.append("\n");
-		
+
 		// Write data
-		for(String filename : files.keySet()) {
-			//System.out.println(files.get(filename).givenRating);
+		for (String filename : files.keySet()) {
+			// System.out.println(files.get(filename).givenRating);
 			sb.append(files.get(filename).toCsvLine(SEP, al, MAX));
 		}
-		
+
 		// Write to file
-		try{
-		    PrintWriter writer = new PrintWriter(file, "UTF-8");
-		    writer.print(sb.toString());
-		    writer.close();
+		try {
+			PrintWriter writer = new PrintWriter(file, "UTF-8");
+			writer.print(sb.toString());
+			writer.close();
 		} catch (IOException e) {
 			System.out.println(e.getMessage());
-		   // do something
+			// do something
 		}
-		
-		// Write R commands
-		try{
-		    PrintWriter writer = new PrintWriter("OLS.R", "UTF-8");
-		    writer.print(rCommands.toString());
-		    writer.close();
-		} catch (IOException e) {
-			System.out.println(e.getMessage());
-		   // do something
-		}
+
 	}
 
 }
