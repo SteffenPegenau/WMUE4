@@ -26,7 +26,7 @@ import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
 
 public class Classifier {
 	String STOPWORDS = "stopwords/english";
-	int CHUNKSIZE = 50;
+	int CHUNKSIZE = 500;
 	double T_MIN = 2.0;
 	
 	private HashMap<String, RatingFile> trainingFiles;
@@ -80,10 +80,11 @@ public class Classifier {
 		while(i < MAX) {
 			System.out.println("\t Words from " + i + " to " + MAX);
 			OLSSchaetzer ols = new OLSSchaetzer(trainingFiles, sl.al, getRangeList(i,MAX));
-			relevantIndices.addAll(ols.getRelevantIndices(T_MIN));
+			//relevantIndices.addAll(ols.getRelevantIndices(T_MIN));
 			i = MAX;
 			MAX = (words > i + CHUNKSIZE) ? i + CHUNKSIZE :  words - 1;
 		}
+		/*
 		System.out.println(" Reduced list of " + words + " to " + relevantIndices.size() + " words");
 		
 		for(int iteration = 2; iteration <= 3; iteration++) {
@@ -93,6 +94,7 @@ public class Classifier {
 			relevantIndices = ols.getRelevantIndices(T_MIN);
 			System.out.println(" Reduced list of " + sizeBefore + " to " + relevantIndices.size() + " words");
 		}
+		*/
 		
 		
 		
